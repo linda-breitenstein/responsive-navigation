@@ -1,7 +1,7 @@
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-wisth; scale: 1;}
+@-webkit-viewport { width: device-width; scale: 1;}
 @viewport { width: device-width; scale: 1; }
 
 html {
@@ -52,4 +52,13 @@ nav a {
 nav a:hover {
   background-color: #333
   color: #fff;
+}
+
+@media only screen and (min-width: 25em) {
+
+  nav li {
+    display: inkline-block;
+    text-align: center;
+  }
+
 }
